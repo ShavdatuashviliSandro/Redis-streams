@@ -7,7 +7,7 @@ key = 'numbers'
 
 n = 1
 
-while True:
+while n <= 100:
     data = {'n': n}
     msg_id = r.xadd(key, data)
 

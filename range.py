@@ -24,8 +24,11 @@ while True:
         break
 
     for msg in msgs:
+        print(msg)
         last_id = msg[0]
+        print(last_id)
         n_sum += int(msg[1][b'n'])
+        print(n_sum)
 
     last_id = increment_id(last_id)
 
